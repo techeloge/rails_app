@@ -1,0 +1,15 @@
+<% provide(:title, "Home") %>
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> <%= yield(:title)%></title>
+  </head>
+  <body>
+      <div class="center jumbotron">
+        <h1>Home</h1>
+        <%=link_to"Sign Up", '#', class: "btn btn-lg btn-primary" %>
+        <p>Ceci est la HomePage de <a href="https://www.donacom.com"> Donacom </a></p>
+      </div>
+  </body>
+</html>
